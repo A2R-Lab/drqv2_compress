@@ -20,7 +20,7 @@ replay_buffer_num_workers: 4
 nstep: 3
 batch_size: 256
 # misc
-seed: 1
+seed: 5
 device: cuda
 save_video: true
 save_train_video: false
@@ -30,6 +30,10 @@ experiment: exp
 # agent
 lr: 1e-4
 feature_dim: 50
+# observation compression
+black: false  # use black floor
+half_compress: false  # use Half compression (grayscale+obs_inds)
+full_compress: false  # use Full compression observation (grayscale+obs_inds+obs_comp)
 
 agent:
   _target_: drqv2.DrQV2Agent

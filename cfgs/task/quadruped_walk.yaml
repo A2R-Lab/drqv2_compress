@@ -3,3 +3,4 @@ defaults:
   - _self_
 
 task_name: quadruped_walk
+num_train_frames: 2000000
