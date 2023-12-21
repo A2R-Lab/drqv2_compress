@@ -2,14 +2,6 @@
 
 # DrQ-v2: Improved Data-Augmented RL Agent
 
-## Installation (Easy)
-```
-python3 -m pip install dm-env dm_control
-python3 -m pip install imageio==2.9.0 imageio-ffmpeg==0.4.4 hydra-core==1.1.0 hydra-submitit-launcher==1.1.5
-python3 -m pip install termcolor==1.1.0 ipdb==0.13.9 yapf==0.31.0 absl-py=0.13.0 pyparsing=2.4.7 scikit-image=0.18.1 pandas==1.3.0 opencv-python==4.5.3.56
-python3 -m pip install mujoco-py==2.1.2.14
-```
-
 This is an original PyTorch implementation of DrQ-v2 from
 
 [[Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning]](https://arxiv.org/abs/2107.09645) by
